@@ -1,14 +1,30 @@
 # mid_level_cache
 
+[![build](https://github.com/nick45chen/mid_level_cache_flutter/actions/workflows/test-package.yml/badge.svg)](https://github.com/nick45chen/mid_level_cache_flutter/actions/workflows/test-package.yml)
+
 A flutter app mid-level cache framework for Android/iOS/macOS.
 
-## Getting Started
+```
+flutter shared_preferences packages <=> mid_level_cache <=> production logic
+```
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Use this package as a library
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+This will add a line like this to your package's pubspec.yaml (and run an implicit dart pub get):
+
+```
+dependencies:
+  mid_level_network:
+    git:
+      url: git@github.com:nick45chen/mid_level_cache_flutter.git
+      ref: master
+```
+
+### Import it
+
+Now in your Dart code, you can use:
+
+```
+import 'package:mid_level_cache/mid_level_cache.dart';
+```
+
