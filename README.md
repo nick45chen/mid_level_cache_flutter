@@ -14,7 +14,7 @@ This will add a line like this to your package's pubspec.yaml (and run an implic
 
 ```
 dependencies:
-  mid_level_network:
+  mid_level_cache:
     git:
       url: git@github.com:nick45chen/mid_level_cache_flutter.git
       ref: master
