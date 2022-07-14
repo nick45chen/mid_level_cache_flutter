@@ -38,7 +38,6 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainAppState extends State<MainApp> {
-  BiliRouteDelegate _routeDelegate = BiliRouteDelegate();
 
   @override
   Widget build(BuildContext context) {
